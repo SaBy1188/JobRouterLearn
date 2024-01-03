@@ -1,9 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T12:59:23.806Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.16" etag="GXxl3Fl3fcrqpGd_R6yM" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T13:00:10.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Y4kr6nFj21jl_Dr5ejOv" version="22.1.16" type="github">
   <diagram name="Seite-1" id="rovOoJl86YS6769YqhK_">
-    <mxGraphModel>
+    <mxGraphModel dx="1134" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="62BAKvyV0nd48fTFcaxu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="62BAKvyV0nd48fTFcaxu-2" target="62BAKvyV0nd48fTFcaxu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-2" value="&lt;b&gt;S&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-3" value="&lt;b&gt;E&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=4;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="650" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="62BAKvyV0nd48fTFcaxu-5" target="62BAKvyV0nd48fTFcaxu-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-5" value="&lt;b&gt;Startschritt&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="62BAKvyV0nd48fTFcaxu-8" target="62BAKvyV0nd48fTFcaxu-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="62BAKvyV0nd48fTFcaxu-8" target="62BAKvyV0nd48fTFcaxu-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-8" value="&lt;b&gt;Systemaktivität&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="460" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-9" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;b&gt;Felder Tabelle&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;Tabellenname: DRA (DienstReiseAntrag)&lt;/li&gt;&lt;li&gt;Dienstreisende:r (Textfeld, 50)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;weitere Personen&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Textfeld, 50&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Dienststelle (OE)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Zahl, 100&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Telefon&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Zahl, 15&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li&gt;Fahrt&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Abfahrt von (Anschrift)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Textfeld, 100&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Reiseweg&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Zahl, 100&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Reiseziel (Anschrift)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Textfeld, 100&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Rückkehr nach (Anschrift)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Textfeld, 100&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li&gt;Begründung Notwendigkeit&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Textfeld, 500&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Zeitraum&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Beginn Dienstreise&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Datum, Uhrzeit&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Beginn Dienstgeschäft&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Datum, Uhrzeit&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Ende Dienstgeschäft&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Datum, Uhrzeit (ca)&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Ende Dienstreise&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Datum, Uhrzeit (ca)&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li&gt;Beförderungsmittel&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Checkboxen&lt;/li&gt;&lt;li&gt;Hinfahrt / Rückfahrt&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Bahn/Bus&lt;/li&gt;&lt;li&gt;Dienst-Kfz&lt;/li&gt;&lt;li&gt;privates Kfz&lt;/li&gt;&lt;li&gt;privater PKW&lt;/li&gt;&lt;li&gt;Mitfahrt bei&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Textfeld&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;sonstige&lt;/li&gt;&lt;li&gt;Begründung Nutzung privater PKW&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;spacingTop=10;spacingLeft=10;spacingRight=10;spacing=10;spacingBottom=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="330" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="62BAKvyV0nd48fTFcaxu-12" target="62BAKvyV0nd48fTFcaxu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="62BAKvyV0nd48fTFcaxu-12" target="62BAKvyV0nd48fTFcaxu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-12" value="&lt;b&gt;Benutzeraktivität&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-13" value="&lt;b&gt;Senden&lt;/b&gt; an Führungskraft" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-14" value="Antrag (Tabelle) &lt;b&gt;ausfüllen&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-15" value="Antrag &lt;b&gt;prüfen &lt;/b&gt;und &lt;b&gt;unterzeichnen&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" edge="1" parent="1" source="62BAKvyV0nd48fTFcaxu-17" target="62BAKvyV0nd48fTFcaxu-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-17" value="&lt;b&gt;Benutzeraktivität&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-18" value="Dokument senden" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62BAKvyV0nd48fTFcaxu-19" value="&lt;h1&gt;Prozessgrafik&lt;br&gt;Dienstreiseantrag&lt;/h1&gt;&lt;ul style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Welche Schritte?&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Reihenfolge?&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Benutzer- und systemseitige Hintergrundaktionen?&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Entscheidungen, Schleifen oder Parallelität?&lt;/li&gt;&lt;/ul&gt;&lt;ol style=&quot;border-color: var(--border-color); color: rgb(51, 51, 51);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Prozessgrafik erstellen&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Verantwortliche, Benutzer und -rollen&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Datenmodell für Kopf- und Positionsdaten&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Schrittdetails&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Dialogdesign/-elemente zur Benutzereingabe&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Regeln der Businesslogik&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Schnittstellen für Datenaustausch&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#FFFFFF;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="330" height="260" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
